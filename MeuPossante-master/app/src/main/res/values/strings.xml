@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Meu Possante</string>
+
+    <string name="navigation_drawer_open">Abrir Menu</string>
+    <string name="navigation_drawer_close">Fechar Menu</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="action_help">Ajuda</string>
+    <string name="meu_possante">Meu Possante</string>
+    <string name="agua">Água</string>
+    <string name="alinhamento">Alinhamento</string>
+    <string name="arrefecimento">Arrefecimento</string>
+    <string name="balanceamento">Balanceamento</string>
+    <string name="bateria">Bateria</string>
+    <string name="cambagem">Cambagem</string>
+    <string name="correia">Correia Dentada</string>
+    <string name="embreagem">Embreagem</string>
+    <string name="freios">Freios</string>
+    <string name="filtro_de_ar">Filtro de Ar</string>
+    <string name="filtro_de_combustivel">Filtro de Combustível</string>
+    <string name="oleo">Óleo</string>
+    <string name="pneus">Pneus</string>
+    <string name="revisao">Revisão Geral</string>
+    <string name="rodizio_de_pneus">Rodízio de Pneus</string>
+    <string name="manutencao">Manutenção</string>
+    <string name="title_activity_manutencao_item">ManutencaoItem</string>
+    <string name="title_activity_cadastro">Cadastro</string>
+    <string name="registro_do_veiculo">Registro do Veículo</string>
+    <string name="nome_veiculo">Nome do Veículo:</string>
+    <string name="quilometragem_veiculo">Quilometragem Atual do Veículo:</string>
+    <string name="ultima_revisao">Ultima Revisão do Veículo (Em KM):</string>
+    <string name="manutencao_item_alerta">Recomendamos fazer a revisão/troca deste componente o mais rápido possível!</string>
+    <string name="ja_fiz_procedimento">Já fiz o procedimento</string>
+    <string name="ok">OK</string>
+    <string name="carregando">Carregando…</string>
+    <string name="descricao_agua">O ideal é verificar o nível da água toda semana.</string>
+    <string name="descricao_alinhamento">Recomenda-se executar este serviço, em média, a cada 10.000 quilômetros rodados.</string>
+    <string name="descricao_arrefecimento">O radiador e o reservatório de expansão devem ser limpos, em média, a cada 30.000 quilômetros rodados.</string>
+    <string name="descricao_balanceamento">Recomenda-se executar este serviço, em média, a cada 10.000 quilômetros rodados.</string>
+    <string name="descricao_bateria">Não existe uma média de quilometragem para
+a troca da bateria, mas recomenda-se
+verificar o bom funcionamento do item a cada
+10 mil quilômetros rodados ou 1(um) ano, o
+que ocorrer primeiro.</string>
+    <string name="descricao_cambagem">Recomenda-se executar este serviço, em média, a cada 10.000 quilômetros rodados.</string>
+    <string name="descricao_correia">Recomenda-se a substituição preventiva deste item, em média, a cada 50.000 quilômetros rodados.</string>
+    <string name="descricao_embreagem">Sugerimos fazer uma verificação preventiva da embreagem a cada 50.000 quilômetros rodados.</string>
+    <string name="descricao_filtro_de_ar">O ideal é que o sistema de filtragem de ar seja substituído a cada ano ou a cada 15.000 quilômetros rodados, o que ocorrer primeiro.</string>
+    <string name="descricao_filtro_de_combustivel">Recomenda-se a troca a cada 10.000 quilômetros rodados.</string>
+    <string name="descricao_freios">O fluido de freio deve ser trocado, em média, a cada 10.000 quilômetros rodados, ou uma vez por ano. Quando efetuar a troca do item, recomenda-se revisar os discos de freio, pastilhas, tambores e outras peças do sistema.</string>
+    <string name="descricao_oleo">O óleo deve ser trocado, em média, a cada 10.000 quilômetros, junto com o filtro de óleo. Caso sua direção seja hidráulica, consulte o manual do proprietário sobre as trocas de óleo da caixa de direção hidráulica.</string>
+    <string name="descricao_pneus">O ideal é calibrar os pneus do seu veículo toda semana.</string>
+    <string name="descricao_revisao">Recomenda-se executar este serviço, em média, a cada 10.000 quilômetros rodados.</string>
+    <string name="descricao_rodizio_de_pneus">Recomenda-se executar este serviço, em média, a cada 10.000 quilômetros rodados.</string>
+    <string name="ultima_verificacao">A próxima troca deste componente será aos:</string>
+    <string name="legenda_agua">A última verificação do item foi aos:</string>
+    <string name="legenda_alinhamento">O último alinhamento foi aos:</string>
+    <string name="legenda_balanceamento">O último balanceamento foi aos:</string>
+    <string name="legenda_bateria">A última verificação do item foi aos:</string>
+    <string name="legenda_cambagem">A última cambagem foi aos:</string>
+    <string name="legenda_correiadentada">A última verificação do item foi aos:</string>
+    <string name="legenda_embreagem">A última verificação do item foi aos:</string>
+    <string name="legenda_filtroar">A última verificação do item foi aos:</string>
+    <string name="legenda_filtrocombustivel">A última verificação do item foi aos:</string>
+    <string name="legenda_freios">A última verificação do item foi aos:</string>
+    <string name="legenda_oleo">A última verificação do item foi aos:</string>
+    <string name="legenda_rodiziopneus">O último rodizio foi aos:</string>
+    <string name="legenda_arrefecimento">A última limpeza foi aos:</string>
+    <string name="legenda_revisaogeral">A última revisão foi aos:</string>
+    <string name="quilometragem_atual">Quilometragem atual:</string>
+    <string name="title_activity_configuracoes">Configuracoes</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="modificar_km">Modificar Quilometragem Atual:</string>
+    <string name="title_activity_rastreio">Rastreio</string>
+    <string name="rastrear_veiculo">Rastrear Veículo</string>
+    <string name="iniciar_rastreio">Inicie o rastreamento do veículo:</string>
+    <string name="iniciar_rastreamento">Iniciar rastreamento:</string>
+    <string name="parar_rastreamento">Parar rastreamento:</string>
+    <string name="rastreio_ligado">Rastreio Ligado</string>
+    <string name="clique_desabilitar">Clique aqui para desabilitar</string>
+    <string name="lista_de_oficinas">Lista de Oficinas</string>
+    <string name="title_activity_alerta_componentes">AlertaComponentes</string>
+    <string name="atencao">Atenção!</string>
+    <string name="radio1Pneus">Uma vez por semana</string>
+    <string name="radio2Pneus">A cada 15 dias</string>
+    <string name="radio1Agua">Todos os dias</string>
+    <string name="radio2Agua">Três vezes por semana</string>
+    <string name="radio3Agua">Uma vez por semana</string>
+    <string name="aditivo">É importante também, que se troque o aditivo
+do radiador, em média, a cada 30 mil
+quilômetros rodados.</string>
+    <string name="observacao">OBS: Caso não saiba quando foi a última manutenção do item, recomendamos que leve o veículo à um mecânico de sua confiança
+para a verificação do mesmo.</string>
+    <string name="subtitulo_alerta">Recomendamos fazer a troca dos seguintes componentes o mais rápido possível:</string>
+</resources>

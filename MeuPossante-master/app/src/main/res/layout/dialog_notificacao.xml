@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/amarelopadrao"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/atencao"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="ATENÇÃO!"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blackcorners" />
+
+    <TextView
+        android:id="@+id/apelidocarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="VEÍCULO 1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:layout_below="@+id/atencao"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textosimples"
+        android:text="Recomendamos fazer ... o mais breve possível"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/apelidocarro"
+        android:id="@+id/informNotificacao" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/notificacaoGroup"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/informNotificacao"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio1Notif"
+            android:textColor="@color/textosimples"
+            android:text="Já fiz, não me avisar novamente."
+            android:buttonTint="#FFFFFF"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio2Notif"
+            android:textColor="@color/textosimples"
+            android:text="Me avisar em três dias."
+            android:buttonTint="#FFFFFF"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio3Notif"
+            android:textColor="@color/textosimples"
+            android:text="Me avisar em sete dias."
+            android:buttonTint="#FFFFFF"
+            android:checked="false"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:background="@drawable/blackcorners"
+        android:text="Salvar"
+        android:textColor="@color/amarelopadrao"
+        android:layout_below="@+id/notificacaoGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>

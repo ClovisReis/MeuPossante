@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginTop="90sp"
+    >
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20sp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="lucas.com.meupossante.Termos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TERMOS DE USO"
+        android:layout_gravity="center"
+        android:textColor="@color/textosimples"
+        android:textSize="36dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/textosimples"
+        android:text="1 - O Aplicativo Meu Possante vai te informar quando houver necessidade de trocar alguma peça do seu carro mediante a quilometragemdo mesmo. Por isso, recomendamos manter os dados do seu veículo sempre atualizados;"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textosimples"
+        android:layout_marginTop="20sp"
+        android:text="2 - O aplicativo não se responsabiliza por problemas no seu veículo. As datas de trocas e manutenção serão sempre uma média;"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/textosimples"
+        android:text="3 - Mesmo com a ajuda do aplicativo, procure sempre o acompanhamento de um profissional. Visite frequentemente um mecânico de sua confiança;"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/textosimples"
+        android:text="4 - Consulte o manual do seu veículo. Isso vai ajudá-lo a entender mais sobre seu carro."/>
+
+   <RadioGroup
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:id="@+id/group"
+       android:layout_marginTop="20sp">
+
+       <RadioButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/Sim"
+           android:textColor="@color/textosimples"
+           android:text="Lí e aceito os termos de uso"
+           android:buttonTint="@color/amarelopadrao"
+           android:checked="false"/>
+
+       <RadioButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/Nao"
+           android:textColor="@color/textosimples"
+           android:text="Lí e não aceito os termos de uso"
+           android:buttonTint="@color/amarelopadrao"
+           android:checked="false"/>
+   </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:background="@drawable/corners"
+        android:textColor="@color/textosimples"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:onClick="OK"
+        android:id="@+id/aceito"
+        android:layout_marginBottom="30sp"/>
+
+
+</LinearLayout>
+</ScrollView>

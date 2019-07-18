@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:title="Veiculo"
+            android:id="@+id/name_veiculo">
+            <menu>
+                <item
+                    android:id="@+id/primeiroveiculo"
+                    android:icon="@drawable/ic_carro"
+                    android:title="Veículo 1"
+                    />
+                <item
+                    android:id="@+id/nav_configuracoes"
+                    android:icon="@drawable/ic_menu_preferences"
+                    android:title="Configurações" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
